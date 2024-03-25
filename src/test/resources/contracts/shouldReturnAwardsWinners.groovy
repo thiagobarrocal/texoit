@@ -13,12 +13,6 @@ Contract.make {
                                 interval: 1,
                                 previousWin: 2011,
                                 followingWin: 2012
-                        ],
-                        [
-                                producer: "Yoram Globus and Menahem Golan",
-                                interval: 1,
-                                previousWin: 1986,
-                                followingWin: 1987
                         ]
                 ],
                 max: [
@@ -27,12 +21,6 @@ Contract.make {
                                 interval: 9,
                                 previousWin: 1980,
                                 followingWin: 1989
-                        ],
-                        [
-                                producer: "Dino De Laurentiis",
-                                interval: 8,
-                                previousWin: 1985,
-                                followingWin: 1993
                         ]
                 ]
         ])
