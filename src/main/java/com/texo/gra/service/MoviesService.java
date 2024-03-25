@@ -43,12 +43,12 @@ public class MoviesService {
 
         List<ProducerIntervalDTO> maxIntervals = allIntervals.stream()
                 .sorted(Comparator.comparingInt(ProducerIntervalDTO::getInterval).reversed())
-                .limit(2)
+                .limit(1)
                 .collect(Collectors.toList());
 
         List<ProducerIntervalDTO> minIntervals = allIntervals.stream()
                 .sorted(Comparator.comparingInt(ProducerIntervalDTO::getInterval))
-                .limit(2)
+                .limit(1)
                 .collect(Collectors.toList());
 
         return AwardIntervalsDTO.builder()
